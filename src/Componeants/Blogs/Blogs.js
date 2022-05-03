@@ -1,15 +1,12 @@
 import React from 'react';
 
-
-const Home = () => {
+const Blogs = () => {
     return (
         <div>
-
-
-            <h1>This is my site</h1>
+            <h2>This is my Blogs</h2>
 
         </div>
     );
 };
 
-export default Home;
+export default Blogs;

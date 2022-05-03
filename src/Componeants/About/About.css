@@ -6,11 +6,13 @@
 .para {
     width: 50%;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 50px;
     margin-bottom: 100px;
+    text-align: justify;
 }
 
 .para h2 {
+    text-align: center;
     color: blue;
     margin-bottom: 50px;
 }

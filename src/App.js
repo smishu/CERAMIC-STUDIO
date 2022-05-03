@@ -1,10 +1,14 @@
 
 import { Route, Router, Routes } from 'react-router-dom';
 import './App.css';
+import About from './Componeants/About/About';
+import Contact from './Componeants/Contacts/Contact';
 import Footer from './Componeants/Footer/Footer';
 import Home from './Componeants/Home/Home';
 import NotFound from './Componeants/NotFound/NotFound';
 import Product from './Componeants/Product/Product';
+import Login from './Componeants/Login/Login';
+import Singin from './Componeants/Login/Login';
 
 
 
@@ -15,6 +19,12 @@ function App() {
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
         <Route path='/product' element={<Product></Product>}></Route>
+        <Route path='/contact' element={<Contact></Contact>}></Route>
+        <Route path='/about' element={<About></About>}></Route>
+        <Route path='/login' element={<Login></Login>}></Route>
+        <Route path='/singin' element={<Singin></Singin>}></Route>
+
+
 
         <Route path='*' element={<NotFound></NotFound>}></Route>
 

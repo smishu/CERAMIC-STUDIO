@@ -1,0 +1,21 @@
+.About {
+    align-items: center;
+    text-align: center;
+}
+
+.para {
+    width: 50%;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.para h2 {
+    color: blue;
+    margin-bottom: 50px;
+}
+
+.Img img {
+    width: 70%;
+    margin-bottom: 50px;
+}

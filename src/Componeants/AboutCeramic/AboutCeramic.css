@@ -1,0 +1,21 @@
+.About-ceramic-img {
+    margin-left: 30px;
+}
+
+.About-ceramic-para {
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 20px;
+
+}
+
+.About-ceramic-para h2 {
+    font-weight: 700;
+
+    margin-bottom: 50px;
+}
+
+.About-ceramic-para span {
+    background-color: burlywood;
+}

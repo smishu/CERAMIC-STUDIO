@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         <>
-            <Navbar className='sticky-top fixed navber-top' collapseOnSelect expand="lg" bg="success" variant="dark">
+            <Navbar className='sticky-top fixed navber-top' collapseOnSelect expand="lg" bg="dark" variant="dark">
                 <Container>
                     <Navbar.Brand as={Link} to="/">CERAMIC STUDIO</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />

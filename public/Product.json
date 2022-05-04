@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "SKU: 0007",
+        "price": "300$",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://static.wixstatic.com/media/697bc8_505bcdce5fc045ac8cc7d0746dd13571~mv2_d_3000_1744_s_2.jpg/v1/fill/w_560,h_373,al_c,q_80,usm_0.66_1.00_0.01/697bc8_505bcdce5fc045ac8cc7d0746dd13571~mv2_d_3000_1744_s_2.webp"
+    },
+    {
+        "id": 2,
+        "name": "SKU: 0008",
+        "price": "100$",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://static.wixstatic.com/media/697bc8_f2d08626492e48e1b86e056f7c0e1a6d~mv2_d_3000_1744_s_2.jpg/v1/fill/w_725,h_525,al_c,q_85,usm_0.66_1.00_0.01/697bc8_f2d08626492e48e1b86e056f7c0e1a6d~mv2_d_3000_1744_s_2.webp"
+    },
+    {
+        "id": 3,
+        "name": "SKU: 0001",
+        "price": "150$",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://static.wixstatic.com/media/697bc8_49306eb7e4674636bf3a12f3364f8cbf~mv2_d_3000_1744_s_2.jpg/v1/fill/w_725,h_525,al_c,q_85,usm_0.66_1.00_0.01/697bc8_49306eb7e4674636bf3a12f3364f8cbf~mv2_d_3000_1744_s_2.webp"
+    },
+    {
+        "id": 4,
+        "name": "SKU: 0006",
+        "price": "180$",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://static.wixstatic.com/media/697bc8_5b14db998c9f45379e50e7e7fb0ad18c~mv2_d_3000_1744_s_2.jpg/v1/fill/w_560,h_373,al_c,q_80,usm_0.66_1.00_0.01/697bc8_5b14db998c9f45379e50e7e7fb0ad18c~mv2_d_3000_1744_s_2.webp"
+    },
+    {
+        "id": 5,
+        "name": "SKU: 0009",
+        "price": "100$",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://static.wixstatic.com/media/697bc8_13699a0a215a4763943aebf17183f387~mv2_d_3000_1744_s_2.jpg/v1/fill/w_725,h_525,al_c,q_85,usm_0.66_1.00_0.01/697bc8_13699a0a215a4763943aebf17183f387~mv2_d_3000_1744_s_2.webp"
+    },
+    {
+        "id": 6,
+        "name": "SKU: 0011",
+        "price": "300$",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+        "img": "https://static.wixstatic.com/media/697bc8_710b03523be34ead879e7278ee0c4a99~mv2_d_3000_1744_s_2.jpg/v1/fill/w_725,h_525,al_c,q_85,usm_0.66_1.00_0.01/697bc8_710b03523be34ead879e7278ee0c4a99~mv2_d_3000_1744_s_2.webp"
+    }
+]

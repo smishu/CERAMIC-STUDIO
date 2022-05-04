@@ -1,5 +1,5 @@
 
-import { Route, Router, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import About from './Componeants/About/About';
 import Contact from './Componeants/Contacts/Contact';
@@ -8,9 +8,10 @@ import Home from './Componeants/Home/Home';
 import NotFound from './Componeants/NotFound/NotFound';
 import Product from './Componeants/Product/Product';
 import Login from './Componeants/Login/Login';
-import Singin from './Componeants/Login/Login';
+
 import Header from './Componeants/Header/Header';
 import Blogs from './Componeants/Blogs/Blogs';
+import Singin from './Componeants/Login/SingIn/Singin';
 
 
 

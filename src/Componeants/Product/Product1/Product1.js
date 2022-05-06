@@ -1,9 +1,14 @@
 import React from 'react';
 import { Button, Card } from 'react-bootstrap';
+import { Navigate, useNavigate } from 'react-router-dom';
 import './Product.css';
 
 const Product1 = ({ product }) => {
     const { name, price, description, img, id } = product;
+    const navigate = useNavigate();
+    const navigateToProduct = id => {
+        navigate(`/product/{id}`);
+    }
     return (
         <div>
 
@@ -16,7 +21,7 @@ const Product1 = ({ product }) => {
                     <Card.Text>
                         {description}
                     </Card.Text>
-                    <Button variant="primary">Add to cart</Button>
+                    <Button onClick={() => navigateToProduct(id)} variant="primary">Add to cart</Button>
                 </Card.Body>
             </Card>
 

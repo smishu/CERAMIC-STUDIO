@@ -12,8 +12,9 @@ import Login from './Componeants/Login/Login';
 import Header from './Componeants/Header/Header';
 import Blogs from './Componeants/Blogs/Blogs';
 import Singin from './Componeants/Login/SingIn/Singin';
-import AddToCard from './Componeants/Login/ReguireAuth/AddToCard/AddToCard';
+
 import ReguireAuth from './Componeants/Login/ReguireAuth/ReguireAuth';
+import AddToCard from './Componeants/Login/AddToCard/AddToCard';
 
 
 

@@ -7,7 +7,7 @@ import img from '../../Images/Group-573.png';
 
 const SocailLogin = () => {
 
-    const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
+    const [signInWithGoogle, user, error] = useSignInWithGoogle(auth);
     const navigate = useNavigate();
     let errorElement;
     if (error) {
@@ -18,7 +18,7 @@ const SocailLogin = () => {
     }
 
     if (user) {
-        navigate('/home');
+        navigate('/product');
     }
     return (
         <div>

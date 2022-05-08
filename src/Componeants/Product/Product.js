@@ -5,7 +5,7 @@ import './Product.css';
 const Product = () => {
     const [products, setProduct] = useState([]);
     useState(() => {
-        fetch('Product.json')
+        fetch('http://localhost:5000/product')
             .then(res => res.json())
             .then(data => setProduct(data));
     }, []);

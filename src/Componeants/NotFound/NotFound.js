@@ -1,6 +1,6 @@
 import React from 'react';
 import './NotFound.css';
-import imgs from '../../Images/404-error-page-not-found.jpg';
+import imgs from '../../Images/404-error-dribbble-800x600.gif';
 
 const NotFound = () => {
     return (

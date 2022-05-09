@@ -2,10 +2,13 @@ import React, { useState } from 'react';
 import Product1 from './Product1/Product1';
 import './Product.css';
 
+
+
 const Product = () => {
+
     const [products, setProduct] = useState([]);
     useState(() => {
-        fetch('http://localhost:5000/product')
+        fetch(`http://localhost:5000/products`)
             .then(res => res.json())
             .then(data => setProduct(data));
     }, []);
@@ -16,7 +19,7 @@ const Product = () => {
             <div className="product-contaer">
 
                 {
-                    products.map(product => <Product1
+                    products.slice(0, 6).map(product => <Product1
                         key={product._id}
                         product={product}>
 

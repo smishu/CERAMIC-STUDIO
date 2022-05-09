@@ -4,6 +4,7 @@ import { Navigate, useNavigate } from 'react-router-dom';
 import './Product.css';
 
 const Product1 = ({ product }) => {
+
     const { name, price, description, img, _id } = product;
     const Navigate = useNavigate();
     const navigateToProduct = _id => {
